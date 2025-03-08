@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="nav-links">
         <a href="#features" onClick={() => scrollToSection('features')}>Features</a>
         <a href="#data" onClick={() => scrollToSection('data')}>Visualizations</a>
-        <a href="#about" onClick={() => scrollToSection('about')}>About</a>
+        <a href="#about" onClick={() => scrollToSection('about')}>About</a> {/* Link to About section */}
         <a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a>
       </div>
       <button className="cta-button" onClick={() => scrollToSection('data')}>Explore Data</button>
