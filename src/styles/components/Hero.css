@@ -38,30 +38,35 @@
   background-color: var(--primary);
   color: white;
   border: none;
-  padding: 0.5rem 1.25rem;
-  border-radius: 4px;
-  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button:hover {
   background-color: #1565c0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .secondary-button {
   background-color: transparent;
   color: var(--primary);
-  border: 1px solid var(--primary);
-  padding: 0.5rem 1.25rem;
-  border-radius: 4px;
-  font-weight: 500;
+  border: 2px solid var(--primary);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .secondary-button:hover {
   background-color: rgba(30, 136, 229, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .hero-image {
